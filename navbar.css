@@ -1,0 +1,393 @@
+body
+{
+  margin:0px;
+  background-color: rgb(146, 135, 93);
+
+  background-size: cover;
+}
+
+/*-----------------------------------*/
+
+.navbar
+{
+  background-color: rgb(92, 81, 59);
+  height:70px;
+  background-size: cover;
+  display:flex;
+  position: fixed;
+  justify-content: space-between;
+  top:0; bottom: 0; left:0;right:0;
+  border-bottom-color: rgb(82, 60, 21);
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  z-index:100;
+}
+#logo1
+{
+  display: flex;
+  width:100px;
+  border-radius: 50%;
+  align-items: center;
+  margin-left: 10px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: rgb(4, 42, 4);
+  border-top: 3px green;
+}
+#nav1,#nav2,#nav3,#nav4,#nav5
+{
+  display: flex;
+  color: rgb(34, 34, 34);
+  text-decoration: none;
+  padding-top: 27px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+#nav1:hover
+{
+  color: black;
+}
+#nav2:hover
+{
+  color: black;
+}
+#nav3:hover
+{
+  color:black;
+}
+#nav4:hover
+{
+  color:black;
+}
+#nav5:hover
+{
+  color:black;
+}
+#nav1
+{
+  margin-left: 30px;
+}
+#city
+{
+  display:flex;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 27px;
+}
+.droplist
+{
+  width:150px;
+  height:20px;
+}
+#accimg1
+{
+  text-align: center;
+  
+  color:black;
+}
+#accimg
+{
+  display: flex;
+  background-color: rgb(160, 127, 28); 
+  justify-content: center;
+  width:100px;
+}
+#accimg:hover
+{
+  background-color: rgb(126, 102, 30);
+  box-shadow: 4px 4px 8px rgb(69, 51, 7); 
+}
+#accimg:active
+{
+  box-shadow: 8px 8px 12px rgb(69, 51, 7); 
+}
+
+
+/*-----------------------------------*/
+
+#scroll
+{
+  display: flex;
+  position:fixed;    
+  padding-top: 70px;
+  background-color: rgb(194, 171, 140);
+  height:24px;
+  color:rgb(72, 52, 20);
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom-color: rgb(145, 105, 37);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+/*-----------------------------------*/
+
+.sofah1
+{
+  
+  display: flex;
+  justify-content: center;
+}
+#head
+{
+  display:flex;
+  color:rgb(255, 255, 209);
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  background-color: rgb(255, 225, 164);
+  background-image: url("/pics/color.avif");
+  width:500px;  
+  justify-content: center;
+  transition: color 3s;
+  margin-top:130px;
+  animation-name: headanimate;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out(1);;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+@keyframes headanimate
+{
+  from
+  {
+    background-color:black;
+    opacity: 0%;
+    transform: translate(450px);
+  }
+  to
+  {  
+   }
+}
+
+.sofabar
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  justify-content: space-evenly;
+}
+
+#sofa1, #sofa2, #sofa3
+{
+ 
+  padding-top: 2px;
+}
+#s1
+{
+  display: flex;
+  justify-content: space-evenly;
+  width:390px;
+  height: 320px;
+  margin-top: 2px;
+  animation-name: s1animate;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out(1);;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+@keyframes s1animate
+{
+  from
+  {
+    background-color:black;
+    opacity: 0%;
+    transform: translateY(50px);
+  }
+  to
+  {  
+   }
+}
+
+
+#cost
+{
+  display:flex;
+  justify-content: center;
+  background-color: antiquewhite;
+  margin-top: 0px;
+  height:35px;
+  color: rgb(66, 35, 12);
+  font-size: 18px;
+  font-weight: bold;
+  transition-property: background-color;
+  animation-name: costanimate;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out(1);;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+@keyframes costanimate
+{
+  from
+  {
+    background-color:black;
+    opacity: 0%;
+    transform: translateY(50px);
+  }
+  to
+  {  
+   }
+}
+#cost:hover{ background-color: chocolate; cursor: pointer;}
+
+#grid1
+{
+  margin-bottom:0px;
+  height:400px;
+  transition: box-shadow 0.5s;
+  transition: transform 1.2s;
+}
+#grid1:hover
+{
+  box-shadow: 10px 14px 12px rgb(213, 212, 211);
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  transform: scale(1.1);
+} 
+
+
+
+/*------------------------------------------------------------------------------*/
+#line1
+{
+  margin-top:0px;
+  margin-bottom: 50px;
+}
+/*------------------------------------------*/
+.wallh1
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+.walldecor
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-evenly;
+}
+#w1
+{
+  height:320px;
+  margin-bottom: 0px;
+}
+#tag
+{
+  display:flex;
+  justify-content: center;
+  background-color: burlywood;
+  color:rgb(86, 61, 29);
+  font-weight: bold;
+  font-size: 20px;
+  margin-top:0px;
+  margin-bottom:0px;
+  height:40px;
+  animation-name: taganimate;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out(1);;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+@keyframes taganimate
+{
+  from
+  {
+    background-color:black;
+    opacity: 0%;
+    transform: translateY(50px);
+  }
+  to
+  {  
+   }
+}
+
+
+/*-----------------------------------------------------------------*/
+#pgrid1
+{
+    margin-bottom:0px;
+    height:400px;
+    transition: box-shadow 0.5s;
+    transition: transform 1.2s;;
+}
+  #pgrid1:hover
+  {
+    box-shadow: 10px 14px 12px rgb(205, 205, 205);
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    transform: scale(1.1);
+  }
+  
+.ph1
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+.paintings
+  {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    height:470px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-evenly;
+}
+#p1
+{
+  height:320px;
+}
+/*-----------------------------------------------*/
+.ah1
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.antique
+{
+  
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  height:470px;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-evenly;
+  margin-bottom:40px;
+}
+#an1
+{
+  margin-bottom:0px;
+    height:400px;
+    transition: box-shadow 0.5s;
+    transition: transform 1.2s;
+}
+#an1:hover
+{
+  box-shadow: 10px 14px 12px rgb(80, 80, 80);
+  border-color: rgb(161, 161, 161);
+  border-width: 2px;
+  border-style: solid;
+  transform: scale(1.1);
+}
+#a1
+{
+  height:321px;
+}

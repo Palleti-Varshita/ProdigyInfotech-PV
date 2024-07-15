@@ -1,0 +1,44 @@
+.lamp
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  justify-content: space-evenly;
+}
+#la1
+{
+  height:396px;
+  transition: box-shadow 0.5s;
+  transition: transform 1.2s;
+}
+#la1:hover
+{
+  box-shadow: 10px 14px 12px rgb(48, 48, 48);
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  transform: scale(1.1) ;
+} 
+#l1
+{
+  display: flex;
+  justify-content: space-evenly;
+  width:320px;
+  height: 320px;
+  margin-top: 2px;
+  animation-name: s1animate;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out(1);;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+.lh1
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}

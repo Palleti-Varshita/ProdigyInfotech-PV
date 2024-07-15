@@ -1,0 +1,184 @@
+body{
+  background-image: url(/pics/damn.avif);
+  background-size: 100% 100%;
+  margin: 0px;
+}
+.img
+{
+  display:flex;
+  margin-top:20px;
+  justify-content: center;
+  animation-name: imganimate;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out(1);
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+@keyframes imganimate
+{
+  from{
+    opacity:0%;transform: scale(2);
+  }
+  to
+  {
+    opacity:100%;
+    
+  }
+}
+#aboutusimg
+{
+  border-radius: 20%;
+  height:200px;
+  border-color: rgb(65, 85, 65);
+  border-width: 5px;
+  border-style: solid;
+}
+.heading
+{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  color:white;  
+  font-size: 30px;
+  animation-name: quoteanimate;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out(1);
+  transition-delay: 60s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+@keyframes quoteanimate
+{
+  from{
+    color:black;
+    opacity: 0%;
+  }
+  to
+  {
+    opacity: 100%;
+  }
+}
+.Quote
+{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  color:rgb(255, 211, 180);  
+  font-size: 25px;
+  animation-name: quoteanimate;
+  animation-duration: 7s;
+  animation-timing-function: ease-in-out(1);
+  transition-delay: 60s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+
+}
+@keyframes quoteanimate
+{
+  from{
+    color:black;
+    opacity: 0%;
+  }
+  to
+  {
+    opacity: 100%;
+  }
+}
+#aboutcon
+{
+  margin-left:120px;
+  margin-right:120px;
+  color:rgb(255, 245, 220);
+  font-size:22px; 
+  text-align: center;
+  line-height:28px;
+  margin-bottom:100px;
+  animation-name: aboutconanimate;
+  animation-duration: 8s;
+  animation-timing-function: ease-in-out(1);
+  transition-delay: 60s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+@keyframes aboutconanimate
+{
+  from{
+    color:black;
+    opacity: 0%;
+  }
+  to
+  {
+    opacity: 100%;
+  }
+}
+#dateabout
+{
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.since
+{
+  color:rgb(255, 245, 220);
+  font-size:22px; 
+  text-align: center;
+  animation-name: sinceanimate;
+  animation-duration: 6s;
+  animation-timing-function: ease-in-out(1);
+  transition-delay: 3s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+@keyframes sinceanimate
+{
+  from{
+    transform: scale(2);
+    opacity: 0%;
+  }
+  to
+  {
+    opacity: 100%;
+  }
+}
+.aboutusfooter
+{
+  margin-top:90px;
+  background-color: black;
+  margin-bottom: 0px;
+  height:100px;
+  line-height: 23px;
+}
+#copy1,#copy2
+{
+  color:white;
+  font-size: 18px;
+  text-align: center;
+}
+#copy1
+{
+  font-weight: bold;
+  padding-top: 10px;
+}
+#aboutusback  
+{
+  border-radius: 150px;
+  height:50px;
+  margin-top:20px;
+  margin-left:10px;
+}
+#f1,#f2,#f3
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color:rgb(255, 247, 202);
+  line-height: 30px;
+  font-size: 19px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#f1
+{
+ 
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-size: 25px;
+}
